@@ -9,5 +9,7 @@ Before running this program be sure to open it in an editor and add your api key
 
 
 Credit:
+
 godaddypy was created by Julian Coy.  Github repo:  https://github.com/eXamadeus/godaddypy
+
 requests Github repo:  https://github.com/requests/requests/
