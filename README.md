@@ -1,5 +1,5 @@
 # GoDaddy-Dynamic-DNS
-Checks to see whether or not your public IP and the IP address for your domain's A record match.  If not the program will change your A record to match your public IP.
+Continually checks to see whether or not your public IP and the IP address for your domain's A record match.  If not the program will change your A record to match your public IP.
 
 This program requires the use of the time, requests, and godaddypy python packages.  requests and godaddypy may need to be pip installed.
 
