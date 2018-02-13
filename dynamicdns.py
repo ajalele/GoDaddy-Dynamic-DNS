@@ -14,6 +14,8 @@ def managedns(client, domain):  #  Gets your public IP address and compares it t
             r = requests.get(r'https://httpbin.org/ip')
         except requests.ConnectionError:
             print('Cannot Connect')
+            time.sleep(10)
+            continue
         public_ip = r.json()['origin']
         dns_ip = client.get_records(domain, record_type='A')[0]['data']
         if  public_ip != dns_ip:
