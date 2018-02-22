@@ -5,7 +5,7 @@ This program requires the use of the datetime, time, requests, and godaddypy pyt
 
 You will also need to obtain your own production API keys from GoDaddy.   https://developer.godaddy.com/keys/
 
-When running this code you must give for aruments:
+When running this code you must give four arguments:
 
 dynamicdns.py <domain> <api key> <api secret> <how often (in seconds) you want to check>
 
