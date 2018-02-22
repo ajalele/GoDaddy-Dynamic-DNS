@@ -7,7 +7,11 @@ You will also need to obtain your own production API keys from GoDaddy.   https:
 
 When running this code you must give four arguments:
 
-dynamicdns.py <domain> <api key> <api secret> <how often (in seconds) you want to check>
+domain, api key, api secret, and how often (in seconds) you want to check
+
+Example:
+
+dynamicdns.py mysweetsite.com x1234X4321x67 s123S456s789 60
 
 If you only want the program to run once and then stop use 0 as the fourth argument.
 
