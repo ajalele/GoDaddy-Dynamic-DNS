@@ -11,7 +11,7 @@ domain, api key, api secret, and how often (in seconds) you want to check
 
 Example:
 
-dynamicdns.py mysweetsite.com x1234X4321x67 s123S456s789 60
+dynamicdns.py mysweetsite.com <api key> <api secret> 60
 
 If you only want the program to run once and then stop use 0 as the fourth argument.
 
